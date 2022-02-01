@@ -7,7 +7,7 @@ body {
 
 .nav-container {
     padding-top: 2%;
-    padding-left: 5%;
+    padding-left: 4%;
     padding-right: 5%;
     display: flex;
 }
@@ -61,7 +61,8 @@ body {
 }
 
 #form {
-    border: 1px solid white;
+    border: 0.5px solid;
+    border-color: white;
     border-radius: 25px;
     padding: 10px;
 }
@@ -88,14 +89,14 @@ body {
     background: #9796f0;  /* fallback for old browsers */
     background: -webkit-linear-gradient(#fbc7d4, #9796f0);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #fbc7d4, #9796f0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: white;
+    color: #0B0A04;
     border: 1px solid black;
     border-radius: 20px;
 }
 
 footer {
     padding-left: 5%;
-    margin-top: 17.5%;
+    margin-top: 15%;
     display: flex;
 }
 
@@ -103,6 +104,28 @@ footer a {
     color: white;
     text-decoration: none;
     font-size: 14px;
+}
+
+.footer-icons {
+    height: 60%;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.4s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+
+.footer-icons:hover, .footer-icons:focus, .footer-icons:active {
+    margin-top: -6%;
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
 }
 
 .bottom-right-link {
