@@ -7,6 +7,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     font-weight: 400;
+    overflow: hidden;
 }
 
 .background-image {
@@ -145,10 +146,13 @@ footer a {
     font-size: 14px;
 }
 
+.footer-icon-links {
+    width: 30px;
+}
+
 .footer-icons {
-    height: 60%;
+    height: 25%;
     width: auto;
-    display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
@@ -168,7 +172,7 @@ footer a {
 }
 
 .bottom-right-link {
-    padding-right: 6%;
+    padding-right: 5.8%;
     width: 10%;
     display: flex;
     justify-content: space-evenly;
@@ -185,7 +189,7 @@ footer a {
 
 @media screen and (max-width: 1440px) {
     .bottom-right-link {
-        padding-right: 8.2%;
+        padding-right: 7%;
     }
 
     .nav-container {
@@ -199,4 +203,9 @@ footer a {
         position: absolute;
         right: 0;
     }
+
+    footer {
+        padding-left: 8%;
+    }
+
   }
