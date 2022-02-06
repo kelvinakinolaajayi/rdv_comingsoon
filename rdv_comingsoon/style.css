@@ -8,10 +8,13 @@ body {
     font-size: 16px;
     font-weight: 400;
     overflow: hidden;
+    background-repeat: no-repeat;
 }
 
 .background-image {
-    scale: 0.85;
+    /*
+    transform: scale(1);
+    */
     position: absolute;
     top: 0;
     left: 0;
@@ -64,12 +67,12 @@ body {
 */
 
 .text-box {
-    margin-top: 22%;
+    margin-top: 20%;
 }
 
 @media screen and (max-width: 1440px) {
     .text-box {
-        margin-top: 23%;
+        margin-top: 22%;
     }
   }
 
@@ -79,9 +82,6 @@ body {
     font-weight: 700; 
     font-size: 96px;
     margin-bottom: 0%;
-    background: white;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .button-container {
@@ -136,7 +136,7 @@ body {
 
 footer {
     padding-left: 7%;
-    margin-top: 14%;
+    margin-top: 11%;
     display: flex;
 }
 
@@ -182,7 +182,9 @@ footer a {
 
 @media screen and (max-width: 1440px) {
     .background-image {
-        scale: 0.83;
+        /*
+        transform: scale(0.83);
+        */
         background-position: 60% 35%;
     }  
   }
@@ -206,6 +208,7 @@ footer a {
 
     footer {
         padding-left: 8%;
+        margin-top: 9%;
     }
 
   }

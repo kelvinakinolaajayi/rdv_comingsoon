@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200:300:400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
 </head>
     <div class=background-image>
     </div>
@@ -31,10 +32,12 @@
     <p style="color: white; text-align: center">We are going to launch our site very soon. Stay tuned!</p>
     </div>
     <div class="button-container">
-        <form id="form" action="/action_page.php">
+        <form id="form" onsubmit="emailForm()">
             <input type="email" id="email" name="email" placeholder="Please enter your email address">
-            <input type="submit" id="submit" value="Notify Me">
+            <input type="button" id="submit" value="Notify Me">
           </form>
+          <br>
+          <p id="demo"></p>
     </div>
     <footer>
         <div class="left-link">
