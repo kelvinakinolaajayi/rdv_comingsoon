@@ -12,9 +12,7 @@ body {
 }
 
 .background-image {
-    /*
-    transform: scale(1);
-    */
+    transform: scale(0.85);
     position: absolute;
     top: 0;
     left: 0;
@@ -136,7 +134,7 @@ body {
 
 footer {
     padding-left: 7%;
-    margin-top: 11%;
+    margin-top: 12%;
     display: flex;
 }
 
@@ -182,9 +180,7 @@ footer a {
 
 @media screen and (max-width: 1440px) {
     .background-image {
-        /*
         transform: scale(0.83);
-        */
         background-position: 60% 35%;
     }  
   }
@@ -208,7 +204,7 @@ footer a {
 
     footer {
         padding-left: 8%;
-        margin-top: 9%;
+        margin-top: 10%;
     }
 
   }
